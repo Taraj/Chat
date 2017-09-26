@@ -1,0 +1,14 @@
+{
+  "name": "chat",
+  "version": "0.0.0",
+  "description": "Chat",
+  "main": "server.js",
+  "author": {
+    "name": "Krzysiek"
+  },
+  "dependencies": {
+    "express": "4.15.4",
+    "socket.io": "2.0.3",
+    "sync-sql": "1.0.2"
+  }
+}

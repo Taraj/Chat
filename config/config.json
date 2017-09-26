@@ -1,0 +1,28 @@
+{
+  "database": {
+    "host": "000.000.000.000",
+    "user": "xxxx",
+    "password": "xxxxx",
+    "database": "xxxxx",
+    "port": "0000"
+  },
+  "iceServers": [
+    {
+      "url": "stun:111.111.111.111"
+    },
+    {
+      "url": "turn:111.111.111.111",
+      "credential": "xxxxx",
+      "username": "xxxxx"
+    }
+  ],
+  "https": false, 
+  "SSL": {
+    "key": "/xxx/xxxxx/xxx/xxxx/privkey.pem",
+    "cert": "/xx/xxxx/xxx/xxxxxx/fullchain.pem",
+    "ca": "/xxx/xxx/xxx/xxxx/chain.pem"
+  },
+  "ip": false
+
+}       
+
